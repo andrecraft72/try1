@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<title>Trial :: Andre Septiawan</title>
+	<meta name="description" content="The plugin will detect your mouse wheel and swipe gestures to determine which way the page should scroll." />
+	<meta name="keywords" content="scroller, jquery one page scroll, onepagescroll, animated scrolling" />
+	<meta name="author" content="Author for Tutorial-webdesign.com" />
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script type="text/javascript" src="js/jquery.onepage-scroll.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/onepage-scroll.css" />
+	
+	
+	
+	
+	<link rel="stylesheet" href="css/style1.css">
+</head>
+<body>
+	
+	<header>
+		<img src="img/R_mini.png" >
+		<h1>REYNOIRO<small>.com</small></h1>
+</header>
+	<div class="main">
+		
+		<section class="page one">
+			<div class="page-container">
+				<h2>Login</h2>
+              	<FORM NAME="frmSignUp" METHOD="post" ACTION="process.php">
+				Username : <INPUT TYPE="text" NAME="uname">
+				Password : <INPUT TYPE="password" NAME="pswd">
+				<INPUT TYPE="submit" VALUE="Submit">
+				</FORM>
+							
+			</div>
+		</section>
+		
+		<section class="page two">
+			<div class="page-container">
+				<h2>Web</h2>
+             	<p>Apakah Itu WEB ?? </p>
+				
+			</div>
+		</section>
+		
+		
+	</div>
+
+
+	<script type="text/javascript">
+	$(".main").onepage_scroll({
+		sectionContainer: "section",
+	});
+	</script>
+
+</body>
+</html>
